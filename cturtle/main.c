@@ -70,7 +70,7 @@ int main() {
     Turtle_Clean(turtle);
 
 
-    for(int i=0;i<100;i++) {
+    for(int i=0;i<10;i++) {
         Turtle_SetPenColor(turtle,palette[rand()%15+1]);
         Turtle_Jump(turtle,rand()%SCREEN_WIDTH,rand()%SCREEN_HEIGHT);
         Turtle_Turn(turtle,rand()%360);
